@@ -1,0 +1,101 @@
+.footer{
+	height: @footer-height;
+	background: white;
+	margin-top: -@footer-height;
+	overflow: hidden;
+	min-width: @container-width + 20px;
+	display: block;
+	line-height: 90px;
+}
+
+.footer__left{
+	float: left;
+}
+
+.footer__logo{
+	display: inline-block;
+}
+
+.footer__logo-img{
+	.inlineblock(@valign: middle);
+	max-height: 55px;
+	max-width: 65px;
+	margin-right: 10px;
+}
+
+.footer__title{
+	.inlineblock(@valign: middle);
+	.malina();
+	font-size: 29px;
+	color: @yellow;
+	margin-right: 60px;
+}
+
+.footer__copyright{
+	.inlineblock(@valign: middle);
+	font-size: 14px;
+	color: #727272;
+	margin-right: 35px;
+}
+
+.footer__address{
+	.inlineblock(@valign: middle);
+	font-size: 13.5px;
+	color: #8d8d8d;
+}
+
+.footer__right{
+	float: right;
+}
+
+.footer__socials{
+
+}
+
+.footer__socials__list{
+
+}
+
+.footer__social__list-item{
+	display: inline-block;
+	margin-right: 30px;
+
+	&:last-child{
+		margin-right: 0;
+	}
+}
+
+.social__link{
+	display: block;
+	color: #cbccd9;
+	transition: color 0.3s;
+}
+
+.fa-size{
+	font-size: 25px;
+}
+
+.social__link-fb:hover{
+	color: #3B5A9B;
+	transition: color 0.3s;
+}
+
+.social__link-vk:hover{
+	color: #4C75A3;
+	transition: color 0.3s;
+}
+
+.social__link-inst:hover{
+	color: #895A4D;
+	transition: color 0.3s;
+}
+
+.social__link-ok:hover{
+	color: #EF7800;
+	transition: color 0.3s;
+}
+
+.social__link-tw:hover{
+	color: #30AAF5;
+	transition: color 0.3s;
+}

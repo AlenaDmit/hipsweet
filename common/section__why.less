@@ -1,0 +1,81 @@
+.section__why{
+	min-height: 970px;
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(201,199,201,1) 100%); 
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%,rgba(201,199,201,1) 100%); 
+	background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%,rgba(201,199,201,1) 100%);
+	background-size: 200%;
+	background-position-x: 25%;
+	background-position-y: 50%;
+}
+
+.why__content{
+	margin-top: 175px;
+	.clearfix;
+}
+
+.why__left{
+	float: left;
+	max-width: 620px;
+	padding-left: 75px;
+}
+
+.why__left-title{
+	.malina();
+	font-size: 70px;
+	color: @blue;
+	line-height: 72px;
+	padding-bottom: 30px;
+}
+
+.why__left-text{
+	font-size: 15px;
+	color: #747474;
+	max-width: 385px;
+	padding-bottom: 100px;
+}
+
+.why__left-images{
+	
+}
+
+.why__left-images-item1{
+	display: inline-block;
+	padding-right: 70px;
+
+	&:last-child{
+		padding-right: 0;
+	}
+}
+
+.why__left-images-item1-image{
+	.border-radius(50%);
+	background-color: #cfd0d5;
+	width: 105px;
+	height: 105px;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.why__left-images-item1-image-img{
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+
+.why__left-images-item1-txt{
+	.malina();
+	max-width: 155px;
+	font-size: 17.5px;
+	color: #7e7e7e;
+}
+
+.section__why .container{
+	background-image: url(images/why/cook.png);
+	background-position: right bottom;
+	z-index: 99999;
+	background-repeat: no-repeat;
+	// .clearfix();
+	padding-top: 25px;
+	padding-bottom: 175px;
+}
